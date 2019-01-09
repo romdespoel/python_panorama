@@ -23,8 +23,11 @@ while(cap.isOpened()):
     else:
         break
 
-cv2.imshow("panorama", img)
-cv2.waitKey(0)
+name = sys.argv[1]
+name = name.split(".")
+cv2.imwrite(name[0]+".jpg", img)
+#cv2.imshow("panorama", img)
+#cv2.waitKey(0)
 
 cap.release()
 cv2.destroyAllWindows()
