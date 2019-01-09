@@ -3,7 +3,9 @@ import numpy as np
 import sys
 
 def take_strip(img):
-    return img[0:, -8:-1]
+    height, width, _ = img.shape
+    half = int(width/2)
+    return img[0:, half: half+4]
 
 def stitch(img, strip):
     return np.concatenate((img, strip), axis=1)
