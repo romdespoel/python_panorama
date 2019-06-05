@@ -3,7 +3,7 @@ Messing about how to create a panorama from a video in Python with openCV
 
 ##V1
 Lame approach at stripping an image.
-Kinda want to see what my flattened out face looks like so that's where we're headed.
+Kinda want to see what my flattened out face looks like so that's where we're headed.   
 Here's my best shot at it so far:
 ![Alt text](v1/tests/face.jpg?raw=true "Faaaceeeee")
 
