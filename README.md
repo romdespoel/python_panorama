@@ -8,7 +8,7 @@ Here's my best shot at it so far:
 ![Alt text](v1/tests/face.jpg?raw=true "Faaaceeeee")
 
 ##V2 
-Using computer vision, create a more sophisticated panorama from images/videos.
+Using computer vision, create a more sophisticated panorama from images/videos.  
 
 How I'm going to do this: 
 	Detect keypoints (Difference of Gaussian)
